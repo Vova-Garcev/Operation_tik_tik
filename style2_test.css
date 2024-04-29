@@ -1,0 +1,53 @@
+body{
+background-color: #5346E8;
+}
+
+.container {
+background-color: #5346E8;
+}
+
+.paragraph {
+background-color: #ffcd1a;
+border-radius: 15px;
+display:iniline-block;
+}
+
+h1 {
+text-align: center;
+color: #000000;
+font: Comic Sans;
+font-size: 120px;
+}
+
+
+.p1 {
+text-align: center;
+color: #000000;
+font: Comic Sans
+font-size:70px;
+}
+
+.butset{
+background-color: #ffcd1a;
+border-radius: 15px;
+display:iniline-block;
+vertical-align: middle;
+}
+
+.butst{
+background-color: #ffcd1a;
+border-radius: 15px;
+display:inline-block;
+vertical-align: middle;
+margin-left: 650px;
+font-size:80px;
+}
+
+@media (orientation: portrait) and (max-width: 450px) {
+    .question {
+        font-size: 50px; 
+    }
+    .ans-row {
+        width: 380px;
+    }
+}
